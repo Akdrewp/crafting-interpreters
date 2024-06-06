@@ -1,0 +1,3 @@
+Running suite(s): doublyLinkedList
+100%: Checks: 2, Failures: 0, Errors: 0
+PASS check_doublyLinkedList (exit status: 0)

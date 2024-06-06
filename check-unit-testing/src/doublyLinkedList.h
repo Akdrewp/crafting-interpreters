@@ -21,4 +21,15 @@
 #ifndef DOUBLYLINKEDLIST_H
 #define DOUBLYLINKEDLIST_H
 
-#endif /* MONEY_H */
+typedef struct Node {
+    int data;
+    struct Node* next;
+    struct Node* prev;
+} Node;
+
+Node* createDoublyLinkedList();
+int size(Node *head);
+int add(int data, Node *head);
+int get(int index, Node *head);
+
+#endif
